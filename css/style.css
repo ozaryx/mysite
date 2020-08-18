@@ -1,0 +1,12 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #20202D;
+        margin: 0;
+    }
+
+    .container {
+        border: 1px solid red;
+    }
