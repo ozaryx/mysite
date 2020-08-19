@@ -9,16 +9,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+.hero {
   max-width: 945px;
   margin: auto;
-}
-
-.hero {
   padding-top: 50px;
-  padding-bottom: 155px;
+  /*padding-bottom: 155px;*/
   background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
+
 .hero-header {
   display: flex;
   justify-content: space-between;
@@ -34,7 +32,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 140px;
 }
+
 .hero-subtitle {
   display: inline-block;
   font-size: 24px;
@@ -79,4 +79,16 @@ body {
   background-repeat: no-repeat;
   background-position: center top -30px;
   border: 10px solid #fff;
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+}
+
+.copyright{
+  font-size: 12px;
+  line-height: 14px;
 }
