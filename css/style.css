@@ -43,6 +43,10 @@ body {
   margin-left: 20px;
 }
 
+.social-link:first-child {
+  margin-left: 0;
+}
+
 .hero-content {
   display: flex;
   justify-content: space-between;
@@ -129,4 +133,113 @@ body {
   font-size: 16px;
   line-height: 28px;
   margin: 0;
+}
+
+/* Contacts */
+
+.contacts-form {
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  max-width: 380px;
+  padding-top: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 40px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.input {
+  background: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: none;
+  padding: 18px 20px;
+  padding-left: 50px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.input-name {
+  margin-bottom: 17px;
+  background-image: url("../img/contacts/user-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.input-phone {
+  margin-bottom: 26px;
+  background-image: url("../img/contacts/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.form-button {
+  width: 100%;
+}
+
+.contacts-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts-text {
+  flex-basis: 50%;
+}
+
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+
+.contacts-phone,
+.contacts-mail {
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+
+.contacts-social {
+  flex-basis: 100%;
+}
+
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;
+}
+
+.contacts-link:hover {
+  text-decoration: underline;
+}
+
+.contacts-policy {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #a5a5a5;
+  margin-top: 72px;
 }
